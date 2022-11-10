@@ -7,8 +7,9 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\Денис\\Desktop\\dev\\first-project\\how-to-learn\\index.html"
+            "name": "Launch Chrome against localhost",
+            "url": "file:///C:/Users/%D0%94%D0%B5%D0%BD%D0%B8%D1%81/Desktop/how-to-learn/index.html",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
