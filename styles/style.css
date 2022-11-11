@@ -83,8 +83,7 @@
   display: flex;
   width: 80%;
   justify-content: space-between;
-  margin: 0;
-
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -113,9 +112,9 @@
   font-weight: normal;
 }
 
-div p:last-child {
-  margin: 0;
-}
+.two-columns__paragraph:last-child { 
+  margin-bottom: 0;
+} 
 
 .two-columns__span-accent {
   line-height: 34px;
@@ -148,6 +147,7 @@ div p:last-child {
   width: 1100px;
   margin: 0 auto;
   justify-content: space-between;
+  padding: 0;
 }
 
 .table__cell {
@@ -170,7 +170,7 @@ div p:last-child {
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
 
 .feynman {
@@ -266,7 +266,7 @@ div p:last-child {
   list-style: none;
 }
 
-.table__heading-theme-dark {
+.table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
