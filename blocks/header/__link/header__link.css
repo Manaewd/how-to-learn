@@ -2,4 +2,9 @@
     position: absolute;
     color: #2f80ed;
     text-decoration: none;
+    transition: 1s linear;
+  }
+  
+  .header__link:hover {
+    opacity: 0.55;
   }
